@@ -6,3 +6,22 @@
     overflow: hidden;
     word-wrap: break-word;
 }
+
+.example::-webkit-scrollbar {
+    display: none;
+  }
+
+  .example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .home-li:hover{
+    background-color: #6e6e6e38;
+    border-radius: 6px;
+  }
+.btn-bg a:hover{
+  color: rgb(180, 180, 180);
+}
+.btn-bg a{
+  color: #fff;
+}
