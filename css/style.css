@@ -1,0 +1,8 @@
+.commentInput:focus,.commentInput{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    overflow: hidden;
+    word-wrap: break-word;
+}
